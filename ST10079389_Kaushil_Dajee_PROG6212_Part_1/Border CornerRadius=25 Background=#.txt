@@ -1,0 +1,5 @@
+<Border CornerRadius="25" Background="#4B0082">
+    <Grid>
+        <!-- Your grid content goes here -->
+    </Grid>
+</Border>

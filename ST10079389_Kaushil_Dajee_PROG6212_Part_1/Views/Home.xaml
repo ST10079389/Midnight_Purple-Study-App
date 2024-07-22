@@ -1,0 +1,16 @@
+﻿<Page x:Class="ST10079389_Kaushil_Dajee_PROG6212_Part_1.Views.Home" Height="650" Width="940"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ST10079389_Kaushil_Dajee_PROG6212_Part_1.Views"
+      mc:Ignorable="d"
+      Title="Home">
+    <!--All Pages have the same sizing and design with different tools-->
+    <Border CornerRadius="45" Background="#27396b">
+        <Grid Width="940" Height="650">
+            <Label x:Name="welcomeText" Content="Midnight Purple Study App" HorizontalAlignment="Center" Margin="0,62,0,0" VerticalAlignment="Top" Width="884" FontSize="72" Foreground="White" Background="Transparent" BorderBrush="Black" Height="124"/>
+            <ListBox x:Name="moduleListBox" HorizontalAlignment="Center" Height="351" VerticalAlignment="Top" Width="835" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,216,0,0" FontSize="16"/>
+        </Grid>
+    </Border>
+</Page>
